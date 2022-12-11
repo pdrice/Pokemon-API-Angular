@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import {HttpClientModule} from '@angular/common/http';
 import { PokemonListComponent } from './pokemon-list/pokemon-list.component'
-import {MatGridListModule} from '@angular/material/grid-list'
+import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,8 +23,9 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     HttpClientModule,
     MatGridListModule,
     MatCardModule,
-    MatPaginatorModule
-    
+    MatPaginatorModule,
+    BrowserAnimationsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

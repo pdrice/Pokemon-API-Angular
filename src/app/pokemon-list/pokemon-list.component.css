@@ -1,6 +1,6 @@
 mat-grid-tile {
     background: lightblue;
-   
+
     margin: 5px
   }
 
@@ -11,5 +11,8 @@ mat-grid-tile {
   mat-paginator{
       margin:auto
   }
-  
-  
+
+  mat-card{
+    background: orange;
+  }
+
